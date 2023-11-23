@@ -1,0 +1,33 @@
+{
+	"name": "app",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev --host",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@fontsource/fira-mono": "^4.5.10",
+		"@neoconfetti/svelte": "^1.0.0",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.20.4",
+		"svelte": "^4.0.5",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fontsource-variable/roboto-mono": "^5.0.16",
+		"@fontsource/inter": "^5.0.15",
+		"@fontsource/poppins": "^5.0.8",
+		"@fortawesome/free-brands-svg-icons": "^6.4.2",
+		"@fortawesome/free-solid-svg-icons": "^6.4.2",
+		"@sveltejs/adapter-cloudflare": "^2.3.3",
+		"@sveltejs/adapter-static": "^2.0.3",
+		"@sveltejs/adapter-vercel": "^3.0.3",
+		"marked": "^10.0.0",
+		"microcms-js-sdk": "^2.7.0",
+		"remark-gfm": "^4.0.0",
+		"svelte-exmarkdown": "^3.0.1",
+		"svelte-fa": "^3.0.4"
+	}
+}
