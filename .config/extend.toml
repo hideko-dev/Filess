@@ -1,0 +1,3 @@
+[extend.build.timing]
+store-ssr-output = true
+static-folder-dir = "static"

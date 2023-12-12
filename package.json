@@ -2,22 +2,46 @@
   "name": "filess",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "core/index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "nodemon core/index.js",
+    "start": "node core/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@fontsource/fira-mono": "^4.5.10",
+    "@neoconfetti/svelte": "^1.0.0",
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/kit": "^1.20.4",
+    "svelte": "^4.0.5",
+    "svelte-ripple-action": "^1.0.4",
+    "vite": "^4.4.2"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.38.5",
+    "axios": "^1.6.2",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "discord.js": "^14.14.1",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "mime-types": "^2.1.35",
     "multer": "^1.4.5-lts.1",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "@fontsource-variable/roboto-mono": "^5.0.16",
+    "@fontsource/inter": "^5.0.15",
+    "@fontsource/poppins": "^5.0.8",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@sveltejs/adapter-cloudflare": "^2.3.3",
+    "@sveltejs/adapter-static": "^2.0.3",
+    "@sveltejs/adapter-vercel": "^3.0.3",
+    "marked": "^10.0.0",
+    "microcms-js-sdk": "^2.7.0",
+    "remark-gfm": "^4.0.0",
+    "svelte-exmarkdown": "^3.0.1",
+    "svelte-fa": "^3.0.4"
   }
 }

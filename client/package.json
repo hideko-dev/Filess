@@ -12,6 +12,7 @@
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
 		"svelte": "^4.0.5",
+		"svelte-ripple-action": "^1.0.4",
 		"vite": "^4.4.2"
 	},
 	"type": "module",

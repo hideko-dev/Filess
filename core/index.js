@@ -3,12 +3,12 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 const { TOKEN } = require('./enviroments')
-const posts = require('./post')
+const routes = require('./routes')
 const Port = 1000;
 
 app.use(express.json(), cors())
 
-app.use('/', posts)
+app.use('/', routes)
 
 client.once('ready', () => {
     console.log('Bot is ready!');
